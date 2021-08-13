@@ -6,6 +6,6 @@ and objects and to demo the concept of inheritance*/
 public class Base {
 	
 	//scanner class is being used to take input from the end user.
-	Scanner scan = new Scanner(System.in);
+	protected static Scanner scan = new Scanner(System.in);
 	
 }
